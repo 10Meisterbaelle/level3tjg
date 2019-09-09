@@ -1,0 +1,23 @@
+<package>
+	<id>com.level3tjg.noythovercards</id>
+	<name>NoYTHoverCards</name>
+	<version>1.0.1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Disable Hover Cards at the end of YouTube videos. Toggle on / off in YouTube settings.</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Bug fix</change>
+	</changelog>
+	<links></links>
+</package>

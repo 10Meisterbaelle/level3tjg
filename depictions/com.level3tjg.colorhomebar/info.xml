@@ -1,0 +1,23 @@
+<package>
+	<id>com.level3tjg.colorhomebar</id>
+	<name>ColorHomebar</name>
+	<version>0.0.5</version>
+	<compatibility>
+		<firmware>
+			<miniOS>11.0</miniOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Color the homebar based on app icon colors</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Now supports Anemone themes</change>
+	</changelog>
+	<links></links>
+</package>

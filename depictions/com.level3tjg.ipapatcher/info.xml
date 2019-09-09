@@ -1,0 +1,23 @@
+<package>
+	<id>com.level3tjg.ipapatcher</id>
+	<name>IPAPatcher</name>
+	<version>1.0.6</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Signs IPAs with entitlements for iOS 11 - 12 jailbreak support, fixes some apps crashing on launch. For usage run "ipapatcher -h" in Terminal or SSH</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Minor improvements</change>
+	</changelog>
+	<links></links>
+</package>

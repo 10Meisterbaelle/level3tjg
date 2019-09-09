@@ -1,0 +1,23 @@
+<package>
+	<id>com.level3tjg.insert-dylib</id>
+	<name>insert_dylib</name>
+	<version>1.0.3</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Command line utility for inserting a dylib load command into a Mach-O binary. https://github.com/Tyilo/insert_dylib</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>32 bit is now supported.</change>
+	</changelog>
+	<links></links>
+</package>
