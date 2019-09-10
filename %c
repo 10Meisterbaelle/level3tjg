@@ -1,0 +1,11 @@
+Package: com.mbo42.proxyswitcher11
+Name: ProxySwitcher (iOS 11)
+Depends: mobilesubstrate, PreferenceLoader, org.thebigboss.libstatus9, firmware(>=11.0)
+Conflicts: com.mbo42.proxyswitcher
+Architecture: iphoneos-arm
+Description: Easily toggle between using a proxy on WiFi.
+Maintainer: level3tjg
+Author: mbo42
+Section: Tweaks
+Icon: file:///Library/Application Support/ProxySwitcher/ProxySwitcherBundle.bundle/icon.png
+Version: 1.0.3

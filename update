@@ -1,0 +1,19 @@
+for f in $(find ./debs)
+do
+	if [[ $f == *".deb"* ]]; then
+		dpkg-deb -R $f ${f%.deb}
+		for c in $(find ${f%.deb})
+		do
+			if [[ $c == *"DEBIAN/control"* ]]; then
+				cp $c $c.bak
+				sed 's/level3tjg.github.io/level3tjg.xyz/g' $c.bak > $c
+				rm $c.bak
+			fi
+			if [[ $c == "postinst" ]]; then
+				chmod +x $c
+			fi
+		done
+		$THEOS/bin/dm.pl -b -Zlzma ${f%.deb} $f
+		rm -rf ${f%.deb}
+	fi
+done
