@@ -1,7 +1,0 @@
-RewriteEngine on
-RewriteCond %{HTTP_USER_AGENT} Sileo
-RewriteRule ^Release$ sileo/Release [R=301]
-RewriteCond %{HTTP_USER_AGENT} Sileo
-RewriteRule ^Packages$ sileo/Packages [R=301]
-RewriteCond %{HTTP_USER_AGENT} Sileo
-RewriteRule ^Packages.bz2$ sileo/Packages.bz2 [R=301]
